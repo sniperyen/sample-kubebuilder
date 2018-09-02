@@ -1,0 +1,10 @@
+apiVersion: hello.k8s.io/v1beta1
+kind: World
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: my-world
+spec:
+  # Add fields here
+  name: devops-config
+  namespace: alauda-system
